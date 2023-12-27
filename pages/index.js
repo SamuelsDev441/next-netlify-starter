@@ -1,4 +1,4 @@
-import Head from 'next/head'
+meimport Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="" />
+        <Header title="Welcome to the Free File Editor" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
